@@ -1,0 +1,26 @@
+{
+  "name": "tmw-code-challenge",
+  "description": "Code challenge for senior-level front-end developer at TMW",
+  "main": "gulpfile.js",
+  "authors": [
+    "Sergei Muller"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "react": "~0.14.2",
+    "ngReact": "~0.2.0",
+    "PubSub": "pubsub#~1.0.0"
+  }
+}

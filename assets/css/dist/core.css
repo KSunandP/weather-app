@@ -1,0 +1,135 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body.scorching {
+  background-color: #cc3e36;
+}
+body.hot {
+  background-color: #f74c42;
+}
+body.very-warm {
+  background-color: #f9793c;
+}
+body.warm {
+  background-color: #fac751;
+}
+body.moderate {
+  background-color: #ffef90;
+}
+body.mild {
+  background-color: #c0dcb4;
+}
+body.cool {
+  background-color: #9febed;
+}
+body.cold {
+  background-color: #4fd3d7;
+}
+body.very-cold {
+  background-color: #4973b8;
+}
+body.freezing {
+  background-color: #26426f;
+}
+.wi.wi-raindrop {
+  margin-right: 0.25em;
+}
+body {
+  font-family: league-gothic, sans-serif;
+  color: white;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body section#location-prompt {
+  color: #333;
+  display: none;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+body section#location-prompt form {
+  font-size: 1.5em;
+}
+body section#weather {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+body section#weather header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+body section#weather header h1 {
+  font-size: 3em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0 0 1em;
+  padding: 0;
+}
+body section#weather header #condition {
+  font-size: 12em;
+}
+body section#weather footer {
+  display: flex;
+}
+body section#weather footer > div {
+  flex: 1;
+}
+body section#weather footer #temperature {
+  text-align: right;
+  font-size: 6em;
+  margin-right: 0.5em;
+}
+body section#weather footer #humidity-and-wind {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+body section#weather footer #humidity-and-wind div {
+  flex: 1;
+  font-size: 2.5em;
+}
+body section#weather footer #humidity-and-wind #humidity {
+  display: flex;
+  align-items: flex-end;
+}
+html.lt-ie10 body section#weather {
+  clear: both;
+  display: block;
+  height: auto;
+  padding-top: 5em;
+  width: 20em;
+  margin: 0 auto;
+}
+html.lt-ie10 body section#weather header {
+  display: block;
+}
+html.lt-ie10 body section#weather footer {
+  display: block;
+}
+html.lt-ie10 body section#weather footer #temperature {
+  float: left;
+  text-align: right;
+  font-size: 6em;
+  margin-right: 0.5em;
+  width: 40%;
+}
+html.lt-ie10 body section#weather footer #humidity-and-wind {
+  float: left;
+  display: block;
+  text-align: left;
+  width: 45%;
+}
+html.lt-ie10 body section#weather footer #humidity-and-wind #humidity {
+  display: block;
+}

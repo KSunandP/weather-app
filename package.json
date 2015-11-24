@@ -1,0 +1,25 @@
+{
+  "name": "tmw-code-challenge",
+  "version": "1.0.0",
+  "description": "Code challenge for senior-level front-end developer at TMW",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.5",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergei Muller",
+  "license": "ISC"
+}
